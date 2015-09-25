@@ -220,9 +220,9 @@ function Swipe(container, options) {
   var interval;
 
   function begin() {
-
-    interval = setTimeout(next, delay);
-
+    if(delay > 0) {
+      interval = setTimeout(next, delay);
+    }
   }
 
   function stop() {
