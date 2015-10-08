@@ -575,7 +575,7 @@ function Swipe(container, options) {
 
 (function (factory) {
   if(typeof module === "object" && typeof module.exports === "object") {
-    factory(require("jquery"), window, document);
+    module.exports = factory(require("jquery"), window, document);
   } else {
     factory(jQuery, window, document);
   }
@@ -589,4 +589,5 @@ function Swipe(container, options) {
       }
     })( window.jQuery || window.Zepto )
   }
+  return Swipe;
 }));
