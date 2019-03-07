@@ -1,9 +1,9 @@
 {
   "name": "swipe-js",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "main": "./swipe.js",
   "dependencies": {
-    "jquery": "^2.1.3"
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
     "grunt": "~0.4.5",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nickleefly/swipe.git"
+    "url": "git://github.com/pixelist/swipe.git"
   },
   "keywords": [
     "ecosystem:jquery",
